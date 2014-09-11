@@ -85,3 +85,9 @@ Revision history for App::Dochazka
 - ../release/: fix current_version.plx which still had references to
   "Dochazka"
 
+0.171  2014-09-10 16:33 CEST
+- Build.PL: add App::CELL dependency
+
+0.172  2014-09-11 09:36 CEST
+- Build.PL: update dependencies
+

@@ -17,11 +17,16 @@ my $build = Module::Build->new(
         'Software::License'  => 0,
     },
     build_requires     => { 
-        'Test::Fatal'        => 0,
+        'App::CELL'          => 0.196,
         'Params::Validate'   => 1.06,
+        'Test::Fatal'        => 0,
     },
     requires           => {
         'perl'               => 5.012,
+        'App::CELL'          => 0.196,
+        'HTTP::Request::Common' => 0,
+        'JSON'               => 0,
+        'LWP::UserAgent'     => 0,
         'Params::Validate'   => 1.06,
     },
     meta_merge => {
